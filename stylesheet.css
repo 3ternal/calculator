@@ -1,0 +1,38 @@
+.wrapper {
+  width: 50%;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.screen {
+  width: 500px;
+  height: 100px;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.buttons {
+  width: 500px;
+  margin: auto;
+}
+
+.buttons tr {
+  width: 500px;
+  height: 100px;
+}
+
+.button {
+  padding: 5px;
+  width: 100px;
+  height: 100px;
+  box-sizing: border-box;
+  background-color: gray;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+tr:last-of-type > td:last-of-type {
+  background-color: #5E040E;
+  color: white;
+}
